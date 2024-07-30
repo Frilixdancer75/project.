@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button
+    class="enroll"
+    onclick="
+    enroll();">Enroll</button>
+
+    <script>
+        function enroll(){
+            if(document.querySelector('.enroll').innerHTML === 'Enroll'){
+                document.querySelector('.enroll').innerHTML = 'Enrolled';
+            }else{
+                document.querySelector('.enroll').innerHTML = 'Enroll';
+            }
+        }
+    </script>
+</body>
+</html>

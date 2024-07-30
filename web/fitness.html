@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fitness</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="templates.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <header class="fitnessheader">
+        <nav class="navheader">
+            <a href="index.html"> <div class="logo">AZURE</div></a>
+            <div class="nav-contents">
+               <a href="#About"><span class="nav-contents-words">About</span></a>          
+               <a href="#About"><span class="nav-contents-words">Contacts</span></a>
+            </div>   
+           </nav>
+    </header>
+   <div class="fitness">
+        <div class="fitnesstext-container">
+            <img src="images/weights.jpg" alt="">
+            <p><b>.Weight lifting</b></p>  
+            <div class="price-container">
+                <button class="book-button enroll1"
+                onclick="
+                cl = 'enroll1';
+                enroll(cl);">Enroll</button>
+            </div> 
+        </div>
+        <div class="fitnesstext-container">
+            <img src="images/body.jpg" alt="">
+            <p><b>.Push ups</b></p>
+            <div class="price-container">
+                <button class="book-button enroll2"
+                onclick="
+                cl = 'enroll2';
+                enroll(cl);">Enroll</button>
+            </div>
+        </div>
+        <div class="fitnesstext-container">
+            <img src="images/cycling.jpg" alt="">
+            <p><b>.Tread mill activities</b></p>
+            <div class="price-container">
+                <button class="book-button enroll3"
+                onclick="
+                cl = 'enroll3';
+                enroll(cl);">Enroll</button>
+            </div>
+        </div>
+        <div class="fitnesstext-container">
+            <img src="images/yoga.jpg" alt="">
+            <p><b>.yoga</b></p>
+            <div class="price-container">
+                <button class="book-button enroll4"
+                onclick="
+                cl = 'enroll4';
+                enroll(cl);">Enroll</button>
+            </div>
+        </div>
+        <div class="fitnesstext-container">
+            <img src="images/chiropractor.jpg" alt="">
+            <p><b>.chiropractor</b></p>
+            <div class="price-container">
+                <button class="book-button enroll5"
+                onclick="
+                cl = 'enroll5';
+                enroll(cl);">Enroll</button>
+            </div>
+        </div>
+        <div class="fitnesstext-container">
+            <img src="images/pilates.jpg" alt="">
+            <p><b>.pilates</b></p>
+            <div class="price-container">
+                <button class="book-button enroll6"
+                onclick="
+                cl = 'enroll6';
+                enroll(cl);">Enroll</button>
+            </div>
+        </div>
+   </div>
+    <footer class="footer">
+        <div class="azures" id="About">
+            <div class="logo">AZURE</div>
+            <div>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt deserunt veniam nostrum distinctio consectetur <br>perspiciatis qui odit magni repellendus tempore quis <br>blanditiis atque temporibus quam, rem officia facere dolorum. Corporis culpa nihil magni quidem!
+                <br>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+        <div class="about">
+            <div class="link">
+                <p>Links</p>
+                <ul>
+                    <li>company history</li>
+                    <li> about us</li>
+                    <li> contact us</li>
+                    <li> services</li>
+                    <li> privacy policy</li>
+                </ul>
+            </div>
+            <div class="contact-us">
+                <p>Contact us</p>
+                <i class="fa-solid fa-location-dot">1201 nabei ,chep</i><br>
+                <i class="fa-solid fa-phone"> 0726-863-833</i><br>
+                <i class="fa-solid fa-envelope"> info@gmail.com</i>
+            </div>
+        </div>
+    </footer>
+   <span class="end"> &#169;2024 Azure investments&#44;all rights reserved</span>
+
+   <script>
+    let cl = '';
+function enroll(cl){
+            if(document.querySelector(`.${cl}`).innerHTML === 'Enroll'){
+                document.querySelector(`.${cl}`).innerHTML = 'Enrolled';
+            }else{
+                document.querySelector(`.${cl}`).innerHTML = 'Enroll';
+            }
+        }
+    
+   </script>
+</body>
+</html>

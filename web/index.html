@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f58d60dffb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>AZURE </title>
+</head>
+<body>
+   
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">AZURE</div>
+            <div class="nav-contents">
+               <a href="#About"><span class="nav-contents-words">About</span></a>
+               <a href="#rooms"><span class="nav-contents-words">Rooms</span></a>               
+               <a href="#services"> <span class="nav-contents-words">services</span></a>
+               <a href="#About"><span class="nav-contents-words">Contacts</span></a>
+            </div>   
+           </nav>
+           <div class="words">
+            <span class="header-h1"><h1>Spend Your Holiday</h1></span>
+            <br>
+            <span class="header-word">Lorem ipsum dolor sit, amet consectetur adipisicing.</span>
+            <br>
+            <button class="book-button"
+            onclick="
+            alert('oops! still under works')">READ MORE</button>
+            <a href="#About"><button  class="contact-button">CONTACT US</button></a>
+           </div>
+    </header>
+    <main>
+        <div class="booking">
+            <div class="booking-words"><p><span class="book">Book</span> Your <br>Rooms</p></div>
+            <form action="" class="form">
+                <input type="date">
+                <input type="date">
+                <input type="text"  placeholder="Adults">
+                <input type="text" placeholder="Children">
+                <button class="book-button">Check Availability</button>
+            </form>
+        </div>
+        <div class="azure">
+            <div class="text-container">
+                <span style="margin: 34px;font-size:  25px;"><h1>AZURE HOTELS</h1></span>
+                <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit molestiae sint harum officiis. Voluptate delectus ullam velit veritatis animi excepturi culpa fugit sapiente quis atque explicabo enim ab obcaecati, assumenda recusandae modi sed. Itaque veniam ullam qui assumenda amet aut quaerat dolore animi error corrupti.</P>
+                <button class="book-button"
+                onclick="
+                alert('oops! still under works')"
+                style=" margin: 20px; width: 170px;">About Us</button>
+            </div>
+            <div>
+                <img src="images/hotel.jpg" alt="">
+            </div>
+        </div>
+        <div class="container" id="rooms">
+            <div class="top-container">
+                <span class="top-tittle"><h1>Our Rooms</h1></span>
+                <p>Stay with us</p>
+            </div>
+            <div class="bottom-container">
+                <div class="img-container">
+                    <img src="images/room.jpg" alt="">
+                    <div class="rating">
+                        <p class="suite">Presidential suite</p>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, dolorum.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ab.
+                        </p>
+                        <div class="price-container">
+                            <button class="book-button room1"
+                            onclick="
+                            room = 'room1'
+                            book(room);
+                            "
+                            >BOOK NOW</button>
+                            <div class="price"><span class="price-value">&#65284; 125</span><br>per night</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <img src="images/room 2.jpg" alt="">
+                    <div class="rating">
+                        <p class="suite">VIP suite</p>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, dolorum.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ab.
+                        </p>
+                        <div class="price-container">
+                            <button class="book-button room2"
+                            onclick="
+                            room = 'room2'
+                            book(room);
+                            "
+                            >BOOK NOW</button>
+                            <div class="price"><span class="price-value">&#65284; 112</span><br>per night</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <img src="images/room 3.jpg" alt="">
+                    <div class="rating">
+                        <p class="suite">Business suite</p>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, dolorum.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ab.
+                        </p>
+                        <div class="price-container">
+                            <button class="book-button room3"
+                            onclick="
+                            room = 'room3'
+                            book(room);
+                            "
+                            >BOOK NOW</button>
+                            <div class="price"><span class="price-value">&#65284; 100</span><br>per night</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <img src="images/room 4.jpg" alt="">
+                    <div class="rating">
+                        <p class="suite">Valentine suite</p>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, dolorum.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ab.
+                        </p>
+                        <div class="price-container">
+                            <button class="book-button room4"
+                            onclick="
+                            room = 'room4'
+                            book(room);
+                            "
+                            >BOOK NOW</button>
+                            <div class="price"><span class="price-value">&#65284; 145</span><br>per night</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <img src="images/room 5.jpg" alt="">
+                    <div class="rating">
+                        <p class="suite">Penthouse suite</p>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, dolorum.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ab.
+                        </p>
+                        <div class="price-container">
+                            <button class="book-button room5"
+                            onclick="
+                            room = 'room5'
+                            book(room);
+                            "
+                            >BOOK NOW</button>
+                            <div class="price"><span class="price-value">&#65284; 119</span><br>per night</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <img src="images/room1.jpg" alt="">
+                    <div class="rating">
+                        <p class="suite"> Standard suite</p>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, dolorum.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ab.
+                        </p>
+                        <div class="price-container">
+                            <button class="book-button room6"
+                            onclick="
+                            room = 'room6'
+                            book(room);
+                            "
+                            >BOOK NOW</button>
+                            <div class="price"><span class="price-value">&#65284; 25</span><br>per night</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="left-words">
+            <span class="header-h1">Our Services</span>
+            <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, at?
+        </div>
+        <div class="services" id="services">
+            <div class="left-container">
+                <div class="services-container">
+                    <a href="deliciousfood.html">
+                        <div class="services-container-items">
+                            <i class="fa-solid fa-champagne-glasses"></i>
+                          delicious foods
+                        </div>
+                    </a>
+                   <a href="fitness.html">
+                    <div class="services-container-items">
+                        <i class="fa-solid fa-person-biking"></i>
+                        fitness
+                    </div>
+                   </a>
+                    <a href="inhouse restaurant.html">
+                        <div class="services-container-items">
+                            <i class="fa-solid fa-utensils"></i>
+                            inhouse Restaurant
+                        </div>
+                    </a>
+                   <a href="beautyspa.html">
+                    <div class="services-container-items">
+                        <i class="fa-solid fa-spa"></i>
+                        Beauty Spa
+                    </div>
+                   </a>
+                </div>
+            </div>
+            <div class="right-container">
+                <img src="images/services.jpg" alt="">
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="azures" id="About">
+            <div class="logo">AZURE</div>
+            <div>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt deserunt veniam nostrum distinctio consectetur <br>perspiciatis qui odit magni repellendus tempore quis <br>blanditiis atque temporibus quam, rem officia facere dolorum. Corporis culpa nihil magni quidem!
+                <br>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+        <div class="about">
+            <div class="link">
+                <p>Links</p>
+                <ul>
+                    <li>company history</li>
+                    <li> about us</li>
+                    <li> contact us</li>
+                    <li> services</li>
+                    <li> privacy policy</li>
+                </ul>
+            </div>
+            <div class="contact-us">
+                <p>Contact us</p>
+                <i class="fa-solid fa-location-dot">1201 nabei ,chep</i><br>
+                <i class="fa-solid fa-phone"> 0726-863-833</i><br>
+                <i class="fa-solid fa-envelope"> info@gmail.com</i>
+            </div>
+        </div>
+    </footer>
+   <span class="end"> &#169;2024 Azure investments&#44;all rights reserved</span>
+
+   <script>
+            let room = '';
+        function book(room){
+                    if(document.querySelector(`.${room}`).innerHTML === 'BOOK NOW'){
+                        document.querySelector(`.${room}`).innerHTML = 'BOOKED';
+                    }else{
+                        document.querySelector(`.${room}`).innerHTML = 'BOOK NOW';
+                    }
+                }
+   </script>
+</body>
+</html>
